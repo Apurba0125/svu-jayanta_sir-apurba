@@ -30,11 +30,12 @@ course details
 9.semester
 10.reg_no
 11.roll_no
-12. current place
+12.utr_no
+13. current place
 
 
 image details
 ******************
-13.self photo
-14.signature
-15.payment Screenshot
+14.self photo
+15.signature
+16.payment Screenshot
