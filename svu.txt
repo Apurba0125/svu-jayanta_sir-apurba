@@ -1,0 +1,40 @@
+✔Sign up
+-----------------
+1.name
+2.email 
+3.reg_no
+4.password 
+5.c_password
+
+✔Log in
+-----------------
+1.reg_no
+2.password
+
+✔Information
+-----------------
+
+Personal Details
+*******************
+1.name
+2.email
+3.dob
+4.mob no.
+5.current address 
+6.residential addreess
+
+course details
+*******************
+7.course type
+8.deperment
+9.semester
+10.reg_no
+11.roll_no
+12. current place
+
+
+image details
+******************
+13.self photo
+14.signature
+15.payment Screenshot

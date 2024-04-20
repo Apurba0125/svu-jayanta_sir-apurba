@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> SVU Student Details</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="Website Icon" type="png" href="img/Swami_Vivekananda_University__Barrackpore_Logo-removebg-preview.png">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
+                <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                    <!-- <h2 id="heading">Sign Up Your User Account</h2> -->
+                    <img id="heading" src="img/Swami_Vivekananda_University__Barrackpore_Logo-removebg-preview.png" alt="">
+                    <p>Fill all form field to go to next step</p>
+                    <form id="msform">
+                        <!-- progressbar -->
+                        <ul id="progressbar">
+                            <li class="active" id="account"><strong>Personal Details</strong></li>
+                            <li id="personal"><strong>Course Details</strong></li>
+                            <li id="payment"><strong>Image</strong></li>
+                            <li id="confirm"><strong>Finish</strong></li>
+                        </ul>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> <br>
+                        <!-- fieldsets -->
+                        <fieldset>
+                            <div class="form-card">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2 class="fs-title">Personal Information:</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h2 class="steps">Step 1 - 4</h2>
+                                    </div>
+                                </div>
+                                <label class="fieldlabels">Name:</label>
+                                <input type="text" name="name" placeholder="Full_Name" />
+                                <label class="fieldlabels">Email:</label>
+                                <input type="email" name="email" placeholder="Email_Id" />
+                                <label class="fieldlabels">Date of Birth:</label>
+                                <input type="date" name="dob" placeholder="DOB" />
+                                <label class="fieldlabels">Mobile Number:</label>
+                                <input type="number" name="Mno" placeholder="Mobile_Number" />
+                                <label class="fieldlabels">Current Address:</label>
+                                <input type="text" name="add1" placeholder="Current_Address " />
+                                <label class="fieldlabels">Residential Addreess:</label>
+                                <input type="text" name="add2" placeholder="Residential_Address" />
+                            </div>
+                            <input type="button" name="next" class="next action-button" value="Next" />
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-card">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2 class="fs-title">Course Information:</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h2 class="steps">Step 2 - 4</h2>
+                                    </div>
+                                </div>
+                                <label class="fieldlabels">Course Type:</label>
+                                <input type="text" name="cou_type" placeholder="Course Type: Diploma/UG/PG/Phd" />
+                                <label class="fieldlabels">Deperment:</label>
+                                <input type="text" name="dept" placeholder="Deperment:BCA/MCA/B.TECH/M.TECH/PHD" />
+                                <label class="fieldlabels">Semester:</label>
+                                <input type="number" name="semester" placeholder="Semester:1/2/3/4/5/6/7/8" />
+                                <label class="fieldlabels">Registration Number:</label>
+                                <input type="number" name="Reg_no" placeholder="Reg_no" />
+                                <label class="fieldlabels">Roll Number:</label>
+                                <input type="number" name="Roll_no" placeholder="Roll_no" />
+                                <label class="fieldlabels">Payment Details:</label>
+                                <input type="number" name="utr_no" placeholder="UTR_no" />
+                                <label class="fieldlabels">Current Place:</label>
+                                <input type="text" name="cur_plc" placeholder="Current_Place" />
+                            </div>
+                            <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-card">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2 class="fs-title">Image Upload:</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h2 class="steps">Step 3 - 4</h2>
+                                    </div>
+                                </div>
+                                <p style="color: rgb(225, 151, 151);">All Photos Should Be Under 50KB</p>
+                                <label class="fieldlabels">Upload Your Photo:</label>
+                                <input type="file" name="pic1">
+                                <label class="fieldlabels">Upload Signature Photo:</label>
+                                <input type="file" name="pic2">
+                                <label class="fieldlabels">Payment ScreenShot:</label>
+                                <input type="file" name="pic3">
+                            </div>
+                            <input type="button" name="next" class="next action-button" value="Submit" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-card">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2 class="fs-title">Finish:</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h2 class="steps">Step 4 - 4</h2>
+                                    </div>
+                                </div> <br><br>
+                                <h2 class="purple-text text-center"><strong>Done</strong></h2> <br>
+                                <div class="row justify-content-center">
+                                    <div class="col-3"> <img src="img/img.png" class="fit-image"> </div>
+                                </div> <br><br>
+                                <div class="row justify-content-center">
+                                    <div class="col-7 text-center">
+                                        <h5 class="purple-text text-center">Successfully Submited The Details</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
